@@ -1,0 +1,87 @@
+h2.head{ margin-top: 4px; font-size: 24px; font-family: Tahoma, Serif; color:#333; line-height: 30px }
+h2.head span{ color: #f10}
+.cgallery{ width:50%; float:left} .cinfo{ width: 50%; float: right}
+.cinfo ul li{background: url(../images/check-ok.png) left center no-repeat; background-size: 12px; padding-left: 17px; }
+
+.cinfo p{ padding: 5px 0 }
+
+.sp-thumbs a{ margin-right: 5px }
+.fb-like{ display: none; margin-bottom: 20px}
+p.date .capnhat{ display: inline-block; margin-right: 10px; color:#1E8BC3; }
+a.adminpage{ display: inline-block; margin-top:10px; }
+
+.lefttt{width:75%; float:left;}
+.righttt{width:22%; float:right;}
+.spnews{padding:10px; box-sizing: border-box; margin-bottom:15px;    box-shadow: 0 0px 3px #ddd;}
+.spnews img{max-width:100%;}
+h2.tieudect{font-size:16px; text-align:center; padding:10px 0;}
+.detail img{ max-width: 100%; height:auto; }
+.detail ul li{ background: url(../images/check-ok.png) top 10px left no-repeat; background-size: 12px; padding-left: 17px }
+.detail ol li{ list-style: decimal; margin-left: 16px}
+
+.muahang{ background: rgba(63, 195, 128,0.1); padding:20px;margin:20px auto} .muahang::after{ content: ''; display: block; clear: both; }
+.muahang .left{ width: 20%; float: left; } .muahang .left img{ width: 100% }
+.muahang .right{ width: 78%; float: right; }
+.muahang span.giacty{ text-decoration: line-through; font-size: 14px; margin-right: 5px }
+.muahang span.giaban{ color: #f60; font-size: 15px }
+.muahang span.phantram{ padding: 0 3px; background: #f60; color:#fff; border-radius: 3px; margin-left: 5px }
+
+select.listprice{ display: none; margin:10px 0; padding:3px 5px; border-radius: 3px; border:0.1px solid #ccc; }
+
+ul.thongso{ border: 0.1px solid #ccc; padding:10px; margin:5px 0; }
+ul.thongso::after{ content: ''; display: block; clear: both; }
+ul.thongso li{ display: block; background: none; width: 50%; float: left; margin:0; padding: 0; font-weight: bold; }
+ul.thongso li strong{ display: block; width: 70px !important; float: left; font-weight: normal; font-weight: normal; }
+p.price{ font-size: 18px; color: #f20; font-weight: bold; margin:10px 0; }
+p.price span.date{ display: block; float: right; color: #666; font-size: 12px; font-weight: normal; font-style: italic; }
+
+ul.contactus{ background: #fff; margin-top: 10px } ul.contactus::after{ content: ''; display: block; clear: both; }
+ul.contactus li{ background: none; margin:0; padding: 0; width: 33.33%; float: left; }
+ul.contactus li input{ border: 0.1px solid #ccc; padding:12px 2%; width: 100%; margin-bottom: 5px }
+ul.contactus li textarea{ border: 0.1px solid #ccc; padding:8px 1%; width: 98%; height: 60px; margin-bottom: 5px }
+ul.contactus li .submit{ padding:13px 30px; background: #2b9c46; color: #fff; cursor: pointer; float: left; }
+
+ul.tienich{ border: 0.1px solid #ddd; padding:1%; margin-top: 10px 0}
+ul.tienich::after{ content: ''; display: block; clear: both; }
+ul.tienich li{ display: block; width: 18%; float: left; margin-bottom: 10px; background: url(../images/nonecheck.png) left center no-repeat; padding-left: 2%; background-size: 14px }
+ul.tienich li.active{background: url(../images/ischecked.png) left center no-repeat; background-size: 14px }
+
+ul.tienich1{ border: 0.1px solid #ddd; padding:1%; margin-top: 10px 0}
+ul.tienich1::after{ content: ''; display: block; clear: both; }
+ul.tienich1 li{ display: block; width: 18%; float: left; margin-bottom: 10px; background-size: 14px }
+/* Responsive cho comment & Facebook */
+#___comments_0{width:100% !important}
+.video-wrap{width:100% !important}
+.fb-comments {max-width:100%}
+.fb-comments span{max-width:100%} .fb-comments iframe{max-width:100%}
+.fb_iframe_widget{max-width:100%} .fb_iframe_widget iframe{max-width: 100%}
+.fb_iframe_widget span{max-width:100%}
+
+.khungct{ padding: 15px; box-sizing: border-box; background: #fff; overflow: hidden; }
+iframe{max-width:100%}
+.sp-wrap { display: none; line-height: 0; font-size: 0; position: relative; margin: 0; float: left; max-width: 100%; margin-bottom: 20px}
+.sp-thumbs { text-align: left; display: inline-block;}
+.sp-thumbs img { min-height: 50px; min-width: 50px; max-width: 50px;}
+.sp-thumbs a:link, .sp-thumbs a:visited { width: 50px; height: 50px; overflow: hidden; opacity: 0.3; display: inline-block; background-size: cover;
+    background-position: center; transition: all .2s ease-out;}
+.sp-thumbs a:hover { opacity: 1;}
+.sp-thumbs a:active, .sp-current { opacity: 1!important; position: relative;}
+.sp-large { position: relative; overflow: hidden; top: 0; left: 0; border:2px solid#999; overflow:hidden; margin-right: 38px;}
+.sp-large a img { max-width: 100%; height: auto;}
+.sp-large a { display: block}
+.sp-zoom { position: absolute; left: -50%; top: -50%; cursor: -webkit-zoom-in; cursor: -moz-zoom-in; display: none;}
+
+.sp-lightbox { position: fixed; top: 0; left: 0; height: 100%; width: 100%; background: rgb(0, 0, 0); background: rgba(0, 0, 0, .9); z-index: 500; display: none; cursor: pointer;}
+.sp-lightbox img { position: absolute; margin: auto; top: 0; bottom: 0; left: 0; right: 0; max-width: 90%; max-height: 90%; border: 2px solid #fff;}
+#sp-prev, #sp-next { position: absolute; top: 50%; margin-top: -25px; z-index: 501; color: #fff; padding: 14px; text-decoration: none; background: #000;
+    border-radius: 25px; border: 2px solid #fff; width: 50px; height: 50px; box-sizing: border-box; transition: .2s;}
+#sp-prev { left: 10px;}
+#sp-prev:before { content: ''; border: 7px solid transparent; border-right: 15px solid #fff; position: absolute; top: 16px; left: 7px;}
+#sp-next { right: 10px;}
+#sp-next:before { content: ''; border: 7px solid transparent; border-left: 15px solid white; position: absolute; top: 16px; left: 18px;}
+#sp-prev:hover, #sp-next:hover { background: #444;}
+
+@media screen and (max-width: 400px) {
+    .sp-wrap { margin: 0 0 15px 0; }
+    #sp-prev, #sp-next { top: auto; margin-top: 0; bottom: 25px;}
+}
